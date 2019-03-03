@@ -4,11 +4,117 @@
     android:layout_height="match_parent"
     android:background="@android:color/holo_green_dark">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Settings Fragment"
-        android:textSize="30sp"
-        android:layout_centerInParent="true"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_green_dark">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="94dp"
+            android:layout_marginTop="100dp"
+            android:text="Payment History"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/editText15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="190dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="T : Food           A : $5.65" />
+
+        <TextView
+            android:id="@+id/editText16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="34dp"
+            android:layout_marginTop="236dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="T : Food           A : $10.65" />
+
+        <TextView
+            android:id="@+id/editText17"
+            android:layout_width="237dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="285dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="T: Entertainment  A: $12.65" />
+
+        <TextView
+            android:id="@+id/editText21"
+            android:layout_width="233dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="519dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="T : Billing           A : $539.21" />
+
+        <TextView
+            android:id="@+id/editText22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="43dp"
+            android:layout_marginTop="578dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="T : Other          A : $203.21" />
+
+        <TextView
+            android:id="@+id/editText18"
+            android:layout_width="236dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="39dp"
+            android:layout_marginTop="340dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="T: Entertainment  A: $24.95" />
+
+        <TextView
+            android:id="@+id/editText19"
+            android:layout_width="233dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="41dp"
+            android:layout_marginTop="399dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="T: Entertainment  A: $20.58" />
+
+        <TextView
+            android:id="@+id/editText20"
+            android:layout_width="234dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/editText19"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="56dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="T : Billing           A : $545.23" />
+
+    </RelativeLayout>
 
 </RelativeLayout>

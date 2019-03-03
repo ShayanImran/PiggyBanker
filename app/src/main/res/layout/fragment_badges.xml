@@ -1,14 +1,189 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/white">
 
+
+
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/editText"
+        android:layout_width="228dp"
         android:layout_height="wrap_content"
-        android:text="Badges Fragment"
-        android:textSize="30sp"
-        android:layout_centerInParent="true"/>
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="170dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Total Money Saved : $5000" />
+
+
+    <TextView
+        android:id="@+id/editText2"
+        android:layout_width="353dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="220dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Money Being Saved this Month : $300" />
+
+    <TextView
+        android:id="@+id/editText5"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="270dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Money spent : $700" />
+
+    <TextView
+        android:id="@+id/editText6"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="320dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Money spent on Food : $100" />
+
+    <TextView
+        android:id="@+id/editText7"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="370dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Money spent on Bills : $200" />
+
+    <TextView
+        android:id="@+id/editText8"
+        android:layout_width="308dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="420dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Money spent on Entertainment : $300" />
+
+    <TextView
+        android:id="@+id/editText9"
+        android:layout_width="244dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="470dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Money spent on Other : $100" />
+
+    <TextView
+        android:id="@+id/editText10"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="101dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Rank : Expert Saver" />
+
+    <TextView
+        android:id="@+id/editText11"
+        android:layout_width="67dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="163dp"
+        android:layout_marginTop="522dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Badges " />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="94dp"
+        android:layout_height="111dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="560dp"
+        app:srcCompat="@drawable/savings_challenge_badge"
+        tools:srcCompat="@drawable/savings_challenge_badge" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="94dp"
+        android:layout_height="111dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="265dp"
+        android:layout_marginTop="560dp"
+        app:srcCompat="@drawable/savings_challenge_badge"
+        tools:srcCompat="@drawable/savings_challenge_badge" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="94dp"
+        android:layout_height="111dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="560dp"
+        app:srcCompat="@drawable/savings_challenge_badge"
+        tools:srcCompat="@drawable/savings_challenge_badge" />
+
+    <TextView
+        android:id="@+id/editText12"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="665dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="1k Savings Badge" />
+
+    <TextView
+        android:id="@+id/editText13"
+        android:layout_width="113dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="147dp"
+        android:layout_marginTop="665dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Streak Badge" />
+
+    <TextView
+        android:id="@+id/editText14"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="261dp"
+        android:layout_marginTop="665dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Create Piggy Bank" />
 
 </RelativeLayout>
